@@ -3,6 +3,8 @@ function tocaSomRisada() {
     document.querySelector("#som_tecla_aplausos ").play();
 }
 
-document.querySelector(".tecla tecla_aplausos").onclick = tocaSomRisada;
+const listaDeTeclas = document.querySelectorAll(".teclado");
+
+listaDeTeclas[2].onclick = tocaSomRisada;
 
 
